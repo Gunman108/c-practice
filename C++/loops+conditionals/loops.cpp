@@ -30,8 +30,23 @@ int main(){
     for(int j = 0; j < 5; j++){
         cout << nums[j] << "  ";
     }
+    cout << endl;
 
     // - nested loops -
     
+    int nested[4][3] = {
+        {4,5,2},
+        {1,9,7},
+        {3,8,6},
+        {4,4,4}
+    };
+
+    for(int i = 0; i < 4; i ++){
+        for(int j = 0; j < 3; j++){
+            cout << nested[i][j] << " ";
+        }
+        cout << endl;
+    }
+
     return 0;
 }

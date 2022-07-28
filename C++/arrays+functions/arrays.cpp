@@ -14,7 +14,16 @@ int main(){
 
     // - 2D arrays -
     
-    
+    int nested[4][3] = {
+        {4,5,2},
+        {1,9,7},
+        {3,8,6},
+        {4,4,4}
+    };
 
+    cout << nested[1][2];
+
+    //applies to n dimentional arrays
+    
     return 0;
 }
